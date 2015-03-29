@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4231594C1A4B5D1600693D21 /* SwiftHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4231594B1A4B5D1600693D21 /* SwiftHTTP.framework */; };
+		42830F581A47548100D3BA08 /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42830F571A47548100D3BA08 /* homeVC.swift */; };
+		42CB61711A4C56E1004A8FE8 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB61701A4C56E1004A8FE8 /* RootVC.swift */; };
+		42CB61731A4C8635004A8FE8 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB61721A4C8635004A8FE8 /* model.swift */; };
 		42FE92221A443C1400E2CE55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE92211A443C1400E2CE55 /* AppDelegate.swift */; };
 		42FE92251A443C1400E2CE55 /* Firebase_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42FE92231A443C1400E2CE55 /* Firebase_Project.xcdatamodeld */; };
 		42FE92271A443C1400E2CE55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE92261A443C1400E2CE55 /* ViewController.swift */; };
@@ -14,6 +18,12 @@
 		42FE922C1A443C1400E2CE55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FE922B1A443C1400E2CE55 /* Images.xcassets */; };
 		42FE922F1A443C1400E2CE55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FE922D1A443C1400E2CE55 /* LaunchScreen.xib */; };
 		42FE923B1A443C1400E2CE55 /* Firebase_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE923A1A443C1400E2CE55 /* Firebase_ProjectTests.swift */; };
+		42FE92451A443CB300E2CE55 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FE92441A443CB300E2CE55 /* Firebase.framework */; };
+		42FE92471A443D1D00E2CE55 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FE92461A443D1D00E2CE55 /* libicucore.dylib */; };
+		42FE92491A443D3700E2CE55 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FE92481A443D3700E2CE55 /* libc++.dylib */; };
+		42FE924B1A443D4100E2CE55 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FE924A1A443D4100E2CE55 /* CFNetwork.framework */; };
+		42FE924D1A443D4A00E2CE55 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FE924C1A443D4A00E2CE55 /* Security.framework */; };
+		42FE924F1A443D5800E2CE55 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FE924E1A443D5800E2CE55 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4231594B1A4B5D1600693D21 /* SwiftHTTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftHTTP.framework; sourceTree = "<group>"; };
+		42830F571A47548100D3BA08 /* homeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
+		42CB61701A4C56E1004A8FE8 /* RootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		42CB61721A4C8635004A8FE8 /* model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		42FE921C1A443C1400E2CE55 /* Firebase Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FE92201A443C1400E2CE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42FE92211A443C1400E2CE55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +52,13 @@
 		42FE92341A443C1400E2CE55 /* Firebase ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firebase ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FE92391A443C1400E2CE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42FE923A1A443C1400E2CE55 /* Firebase_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_ProjectTests.swift; sourceTree = "<group>"; };
+		42FE92441A443CB300E2CE55 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		42FE92461A443D1D00E2CE55 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		42FE92481A443D3700E2CE55 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		42FE924A1A443D4100E2CE55 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		42FE924C1A443D4A00E2CE55 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		42FE924E1A443D5800E2CE55 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		42FE92511A443E1300E2CE55 /* Firebase Project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Firebase Project-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +66,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FE924F1A443D5800E2CE55 /* SystemConfiguration.framework in Frameworks */,
+				4231594C1A4B5D1600693D21 /* SwiftHTTP.framework in Frameworks */,
+				42FE924D1A443D4A00E2CE55 /* Security.framework in Frameworks */,
+				42FE924B1A443D4100E2CE55 /* CFNetwork.framework in Frameworks */,
+				42FE92491A443D3700E2CE55 /* libc++.dylib in Frameworks */,
+				42FE92471A443D1D00E2CE55 /* libicucore.dylib in Frameworks */,
+				42FE92451A443CB300E2CE55 /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,9 +89,11 @@
 		42FE92131A443C1400E2CE55 = {
 			isa = PBXGroup;
 			children = (
+				42FE92501A443D7200E2CE55 /* Frameworks */,
 				42FE921E1A443C1400E2CE55 /* Firebase Project */,
 				42FE92371A443C1400E2CE55 /* Firebase ProjectTests */,
 				42FE921D1A443C1400E2CE55 /* Products */,
+				42FE92511A443E1300E2CE55 /* Firebase Project-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,9 +111,12 @@
 			children = (
 				42FE92211A443C1400E2CE55 /* AppDelegate.swift */,
 				42FE92261A443C1400E2CE55 /* ViewController.swift */,
+				42830F571A47548100D3BA08 /* homeVC.swift */,
+				42CB61701A4C56E1004A8FE8 /* RootVC.swift */,
 				42FE92281A443C1400E2CE55 /* Main.storyboard */,
 				42FE922B1A443C1400E2CE55 /* Images.xcassets */,
 				42FE922D1A443C1400E2CE55 /* LaunchScreen.xib */,
+				42CB61721A4C8635004A8FE8 /* model.swift */,
 				42FE92231A443C1400E2CE55 /* Firebase_Project.xcdatamodeld */,
 				42FE921F1A443C1400E2CE55 /* Supporting Files */,
 			);
@@ -113,6 +146,20 @@
 				42FE92391A443C1400E2CE55 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42FE92501A443D7200E2CE55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4231594B1A4B5D1600693D21 /* SwiftHTTP.framework */,
+				42FE924E1A443D5800E2CE55 /* SystemConfiguration.framework */,
+				42FE924C1A443D4A00E2CE55 /* Security.framework */,
+				42FE924A1A443D4100E2CE55 /* CFNetwork.framework */,
+				42FE92481A443D3700E2CE55 /* libc++.dylib */,
+				42FE92461A443D1D00E2CE55 /* libicucore.dylib */,
+				42FE92441A443CB300E2CE55 /* Firebase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				42FE92271A443C1400E2CE55 /* ViewController.swift in Sources */,
+				42CB61731A4C8635004A8FE8 /* model.swift in Sources */,
+				42830F581A47548100D3BA08 /* homeVC.swift in Sources */,
+				42CB61711A4C56E1004A8FE8 /* RootVC.swift in Sources */,
 				42FE92251A443C1400E2CE55 /* Firebase_Project.xcdatamodeld in Sources */,
 				42FE92221A443C1400E2CE55 /* AppDelegate.swift in Sources */,
 			);
@@ -340,9 +390,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Firebase Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Firebase Project";
+				SWIFT_OBJC_BRIDGING_HEADER = "Firebase Project-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +408,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Firebase Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Firebase Project";
+				SWIFT_OBJC_BRIDGING_HEADER = "Firebase Project-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -370,7 +435,7 @@
 				);
 				INFOPLIST_FILE = "Firebase ProjectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Firebase ProjectTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase Project.app/Firebase Project";
 			};
 			name = Debug;
@@ -385,7 +450,7 @@
 				);
 				INFOPLIST_FILE = "Firebase ProjectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Firebase ProjectTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase Project.app/Firebase Project";
 			};
 			name = Release;
@@ -409,6 +474,7 @@
 				42FE92401A443C1400E2CE55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42FE92411A443C1400E2CE55 /* Build configuration list for PBXNativeTarget "Firebase ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +483,7 @@
 				42FE92431A443C1400E2CE55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
